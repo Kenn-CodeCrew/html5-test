@@ -1,11 +1,15 @@
 # HTML5 Element Test Page
 
-Common HTML5 elements for CSS testing purposes.
+An example page containing common HTML5 elements for CSS testing purposes.
 
-[Click here to view the test page](https://taniarascia.github.io/html5-test)
+### [View test page!](https://taniarascia.github.io/html5-test)
 
 * Formatting
 * Headings
 * Lists
 * Tables
 * Forms
+
+## License
+
+The code is open source and available under the [MIT License](LICENSE.md).
