@@ -11,7 +11,17 @@
 </head>
 
 <body>
-		<main>
+	<main>
+
+		<nav>
+			<a href="#!" id="none">No CSS</a> |
+			<a href="#!" id="primitive">Primitive</a> |
+			<a href="#!" id="bootstrap">Bootstrap</a> |
+			<a href="#!" id="foundation">Foundation</a> |
+			<a href="#!" id="skeleton">Skeleton</a> |
+			<a href="#!" id="material">Material</a>
+		</nav>
+
 		<div class="small-container">
 			<h1>HTML5 Element Test Page</h1>
 			<p>Common HTML5 elements for CSS testing purposes.</p>
@@ -164,7 +174,7 @@ public:
 			</form>
 
 			<h2>Fieldset and Legend</h2>
-			
+
 			<form>
 				<fieldset>
 					<legend>Legend</legend>
@@ -182,26 +192,27 @@ public:
 	</main>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script>
-		$(document).ready(function () {
-			$('#none').click(function () {
+		$(document).ready(function() {
+			$('#none').click(function() {
 				$('link').attr('href', '');
 			});
-			$('#primitive').click(function () {
+			$('#primitive').click(function() {
 				$('link').attr('href', 'https://taniarascia.github.io/primitive/dist/css/main.min.css');
 			});
-			$('#bootstrap').click(function () {
+			$('#bootstrap').click(function() {
 				$('link').attr('href', 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.min.css');
 			});
-			$('#foundation').click(function () {
+			$('#foundation').click(function() {
 				$('link').attr('href', 'https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css');
 			});
-			$('#skeleton').click(function () {
+			$('#skeleton').click(function() {
 				$('link').attr('href', 'https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css');
 			});
-			$('#material').click(function () {
+			$('#material').click(function() {
 				$('link').attr('href', 'https://code.getmdl.io/1.2.1/material.indigo-pink.min.css');
 			});
 		});
+
 	</script>
 </body>
 

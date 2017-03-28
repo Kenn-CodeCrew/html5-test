@@ -2,13 +2,77 @@
 
 An example page containing common HTML5 elements for CSS testing purposes.
 
-### [View test page!](https://taniarascia.github.io/html5-test)
+## [View test page](https://taniarascia.github.io/html5-test)
 
-* Formatting
-* Headings
-* Lists
-* Tables
-* Forms
+### Formatting
+
+* `<b>`
+* `<strong>`
+* `<em>`
+* `<i>`
+* `<small>`
+* `<sup>`
+* `<sub>`
+* `<del>`
+* `<ins>`
+* `<a>`
+* `<code>`
+* `<kbd>`
+* `<samp>`
+* `<cite>`
+* `<q>`
+* `<abbr>`
+* `<dfn>`
+* `<time>`
+* `<address>`
+* `<blockquote>`
+* `<pre>`
+* `<hr>`
+
+### Headings
+
+* `<h1>`
+* `<h2>`
+* `<h3>`
+* `<h4>`
+* `<h5>`
+
+### Lists
+
+* `<ol>`
+* `<ul>`
+* `<dl>`
+* `<li>`
+
+### Tables
+
+* `<table>`
+* `<thead>`
+* `<tfoot>`
+* `<tbody>`
+* `<tr>`
+* `<th>`
+
+### Forms
+
+* `<form>`
+* `<input>`
+  * `type="text"`
+  * `type="password"`
+  * `type="url"`
+  * `type="phone"`
+  * `type="search"`
+  * `type="number"`
+  * `type="radio"`
+  * `type="checkbox"`
+  * `type="button"`
+  * `type="submit"`
+  * `type="reset"`
+* `<select>`
+* `<fieldset>`
+* `<label>`
+* `<textarea>`
+* `<button>`
 
 ## License
 
