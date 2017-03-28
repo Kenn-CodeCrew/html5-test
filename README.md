@@ -21,6 +21,7 @@ An example page containing common HTML5 elements for CSS testing purposes. Optio
 * `<samp>`
 * `<cite>`
 * `<q>`
+* `<mark>`
 * `<abbr>`
 * `<dfn>`
 * `<time>`
